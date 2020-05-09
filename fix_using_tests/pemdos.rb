@@ -4,7 +4,7 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    "ssssssssss" + "surprise!"
+    10.times{'s'} + "surprise!"
   else
     string
   end
