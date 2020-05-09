@@ -10,4 +10,4 @@ def snake_it_up(string)
   end
 end
 
-10.times{"s"} + string
+snake_it_up(string)
