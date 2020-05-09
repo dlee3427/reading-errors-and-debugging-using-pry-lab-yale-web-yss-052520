@@ -21,7 +21,6 @@ def selection(num)
 end
 
 def runner
-  binding.pry
   prompt_user
   selection
 end
