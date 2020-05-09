@@ -5,7 +5,7 @@ require 'pry'
 def snake_it_up(string)
   binding.pry
   if string[1] == "s"
-    10.times{"s"} + string
+    9.times{"s"} + string
   else
     string
   end
